@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    text-decoration: overline;
+
+}
+h2{
+    font-weight: 800;
+    text-decoration: red line-through;
+    
+}
+h3{
+    text-align:center;
+
+    text-decoration:dotted line-through;
+}
+p1{
+    text-decoration: underline wavy;
+    font-size:15px;
+} 
+a{
+    text-decoration:none;
+}
+p2{
+    line-height:2.5;
+    font-family:impact;
+}
