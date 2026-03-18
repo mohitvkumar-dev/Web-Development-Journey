@@ -1,0 +1,10 @@
+h1::first-letter{
+   color:violet; 
+}
+p::first-line{
+    color:red;
+}
+p::selection{
+    background-color:limegreen;
+}
+

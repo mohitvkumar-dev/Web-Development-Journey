@@ -1,0 +1,10 @@
+ 
+ div p{
+     background-color: black;  /* 0 0 2 = 2 */
+ }
+ .para{
+    background-color: blue;    /* 0 1 0 = 10 */
+ }
+ p{
+    background-color: green;    /* 0 0 1 = 1 */
+ }

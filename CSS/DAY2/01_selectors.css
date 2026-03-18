@@ -70,6 +70,7 @@ div > input{
 }
 
 /* attribute selelctor */
+
 /* value based */
 input[type="text"]{
     color:red;
