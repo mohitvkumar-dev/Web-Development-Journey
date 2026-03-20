@@ -1,0 +1,9 @@
+div{
+    height:200px;
+    width:400px;
+    background-color: chartreuse;
+    margin: 10px auto;
+    background-image: url("image.css.jpg");
+    background-size: cover;
+    color: whitesmoke;
+}
