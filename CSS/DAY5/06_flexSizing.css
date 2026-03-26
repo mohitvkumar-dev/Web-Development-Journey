@@ -16,13 +16,17 @@
         align-self:flex-end ;
         /* flex-basis:50px; */
         /* flex-grow: 1; */
-        flex-shrink:1;
+        /* flex-shrink:1;*/
+
+        /* Shorthand */
+
+        flex:2 2 100px;
     }
     #blue{
         /* flex-basis:400px; */
         /* flex-grow:1; */
         /* max-width: 400px; */
-        flex-shrink: 3;
+        flex-shrink: 1;
     }
 
    
@@ -32,7 +36,7 @@ h1{
 }
 #container div{
     height:100px;
-    width: 300px;
+    width: 50px;
     color: white;
     text-align: center;
     font-size: 1.5em;
