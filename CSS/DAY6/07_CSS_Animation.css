@@ -1,0 +1,82 @@
+.box{
+    height:100px;
+    width:200px;
+    background-color: pink;
+
+
+    animation-name: widthAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+
+    animation-name: colorAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+
+
+    /* Short Hands
+
+        animaion:widthAnimation 3s ease-in 0s infinite normal;
+        
+        */
+
+
+    /* CSS me same property dubara likhne par last wali overwrite karti hai
+      Isliye sirf colorAnimate chal rahi hai, widthAnimate ignore ho gayi
+
+    animation-name: widthAnimate, colorAnimate;
+    animation-duration: 2s, 2s;
+    animation-timing-function: ease-in, ease-in;
+    animation-delay: 0s, 0s;
+    animation-iteration-count: 3, 3;
+    animation-direction: normal, normal;
+
+    esase ek sath animation implement honge.
+    
+    */
+}
+
+@keyframes fontAnimation{
+    from{font-size:20px ;
+    }
+    to{font-size: 40px;
+    }
+}
+@keyframes colorAnimate{
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: aquamarine;
+    }
+}
+
+@keyframes widthAnimate{
+    from{
+        width: 10px;
+    }
+    to{
+        width: 400px;
+    }
+}
+
+
+/* Percentage Animations */
+
+@keyframes colorAnimate{
+   0%{
+    background-color: blueviolet;
+   }
+   50%{
+    background-color: yellow;
+   }
+   100%{
+    background-color: blue;
+   }
+
+}
