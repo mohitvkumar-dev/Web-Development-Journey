@@ -16,3 +16,15 @@ if(age>=18){
 else if(age<18){
     console.log("you can't");
 }
+
+
+if(age<18){
+    console.log("you can vote");
+}
+else{
+    console.log("you can't");
+}
+
+
+
+

@@ -5,3 +5,5 @@ if(age>=18){
     console.log("You can drive.");
 }
 console.log("after my if satement");
+
+
