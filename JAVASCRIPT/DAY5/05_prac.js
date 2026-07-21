@@ -4,4 +4,4 @@ function table(n){
     }
 }
 
-table(2);
+table(2); 
