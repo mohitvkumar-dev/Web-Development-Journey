@@ -17,7 +17,6 @@ console.log(arr.map((el)=> el+5));
 let str=["adam","mohit","rahul"];
 console.log(str.map((char)=>char.toUpperCase()));
 
-
 // question no:5
 const mergObj=(obj1,obj2)=>({...obj1,obj2});
 mergObj({a:1,b:2},{c:3,d:4});
