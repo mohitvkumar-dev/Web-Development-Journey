@@ -4,7 +4,7 @@ let nums=[1,2,3,4,5];
 let sqr=nums.map((num)=> num*num);
 console.log(sqr);
 
-
+// question no:2
 let sum = sqr.reduce((acc,cur)=> acc+cur,0);
 let avg = sum/nums.length;
 console.log(avg);
