@@ -9,7 +9,7 @@ let sum = sqr.reduce((acc,cur)=> acc+cur,0);
 let avg = sum/nums.length;
 console.log(avg);
 
-
+// question no:3
 let arr=[2,4,5,6,7];
 console.log(arr.map((el)=> el+5));
 
