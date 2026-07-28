@@ -13,6 +13,7 @@ console.log(avg);
 let arr=[2,4,5,6,7];
 console.log(arr.map((el)=> el+5));
 
+// question no:4
 let str=["adam","mohit","rahul"];
 console.log(str.map((char)=>char.toUpperCase()));
 
