@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Man DOM Practice</title>
+    <link rel="stylesheet" href="09_DOM.css">
+</head>
+<body>
+
+    <header id="header">
+        <h1 id="mainHeading">🕷️ Spider-Man</h1>
+        <p class="tagline">Your Friendly Neighborhood Superhero</p>
+    </header>
+
+    <section id="about">
+        <h3>About Spider-Man</h3>
+
+        <img id="mainImg"
+            src="https://picsum.photos/700/350"
+            alt="Spider-Man">
+
+        <p id="description">
+            <b>Spider-Man</b> is one of the most popular Marvel superheroes.
+            His real name is <span class="highlight">Peter Parker</span>.
+        </p>
+        <div class="box">
+        <a href="#" class="boxLink">Publishing</a>
+        <a href="https://www.marvel.com" target="_blank">Marvel</a> |
+        <a href="https://en.wikipedia.org/wiki/Spider-Man" target="_blank">Wikipedia</a> |
+        <a href="https://www.imdb.com/find/?q=Spider-Man" target="_blank">IMDb</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="powers">
+        <h2>Powers</h2>
+
+        <ul id="powerList">
+            <li>Spider Sense</li>
+            <li>Wall Crawling</li>
+            <li>Super Strength</li>
+            <li>Web Shooting
+                <ul>
+                    <li>Organic Web</li>
+                    <li>Web Shooter</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+
+        <img class="heroImg" src="https://picsum.photos/200/250?1">
+        <img class="heroImg" src="https://picsum.photos/200/250?2">
+        <img class="heroImg" src="https://picsum.photos/200/250?3">
+    </section>
+
+    <hr>
+
+    <section id="formSection">
+        <h2>Fan Form</h2>
+
+        <form>
+
+            <input type="text" id="name" placeholder="Your Name">
+
+            <br><br>
+
+            <input type="number" id="age" placeholder="Age">
+
+            <br><br>
+
+            <select id="movie">
+                <option>No Way Home</option>
+                <option>Homecoming</option>
+                <option>Far From Home</option>
+            </select>
+
+            <br><br>
+
+            <textarea id="feedback" placeholder="Feedback"></textarea>
+
+            <br><br>
+
+            <button id="submitBtn">Submit</button>
+            <button type="reset">Reset</button>
+
+        </form>
+    </section>
+
+    <footer id="footer">
+        <p>Made for JavaScript DOM Practice ❤️</p>
+    </footer>
+
+    <script src="09_DOM.js"></script>
+
+</body>
+</html>
