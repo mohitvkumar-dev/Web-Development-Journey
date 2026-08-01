@@ -16,6 +16,7 @@ let btn = document.querySelector("#btn");
 btn.classList.add("btnStyle");
 
 
+// question : 4
 let h1 = document.createElement("h1");
 hl.innerHTML = "<u>DOM Practice</u>";
 document.querySelector("body").append(hl);
