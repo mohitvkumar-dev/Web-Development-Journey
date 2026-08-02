@@ -11,10 +11,6 @@ button.setAttribute("id", "btn");
 input.setAttribute("placeholder", "username");
 
 
-// question : 3
-let btn = document.querySelector("#btn");
-btn.classList.add("btnStyle");
-
 
 // question : 4
 let h1 = document.createElement("h1");
