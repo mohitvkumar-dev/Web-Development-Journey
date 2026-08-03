@@ -1,4 +1,4 @@
-// question : 1
+// question :1
 
 let button = document.createElement("button");
 let input = document.createElement("input");
