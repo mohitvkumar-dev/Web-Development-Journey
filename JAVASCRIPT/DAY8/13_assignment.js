@@ -12,7 +12,7 @@ input.setAttribute("placeholder", "username");
 
 
 
-// question : 3
+// question :3
 let btn = document.querySelector("#btn");
 btn.classList.add("btnStyle");
 
