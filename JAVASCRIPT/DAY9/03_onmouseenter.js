@@ -1,9 +1,8 @@
 let btns=document.querySelectorAll("button");
 for(btn of btns){
-
+    btn.onclick=sayhello;
     btn.onmouseenter=function(){
-        btn.onclick=sayhello;
-      console.log("you entered a button");
+    console.log("you entered a button");
     }
     btn.onclick = sayhello;
    
