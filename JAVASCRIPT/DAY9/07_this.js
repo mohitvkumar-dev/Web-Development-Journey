@@ -4,7 +4,7 @@ let h5 = document.querySelector("h5");
 
 
 function changeColor(){
-   console.dir(this.innerText);
+   console.dir(this.innerText); 
    this.style.backgroundColor = "blue";
 }
 
