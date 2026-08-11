@@ -7,7 +7,7 @@ form.addEventListener("submit", function(event){
 });
 
 
-// 
+
 let user= document.querySelector("#user");
 
 user.addEventListener("change",function(){
