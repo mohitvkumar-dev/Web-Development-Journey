@@ -1,4 +1,5 @@
 
+//question 1
 
 let form=document.querySelector("form");
 
