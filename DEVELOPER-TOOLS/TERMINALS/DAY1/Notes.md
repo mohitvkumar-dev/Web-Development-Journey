@@ -1,5 +1,5 @@
 
-# Terminal Basics — Day 01
+# Terminal Basics — Notes
 
 ## Different Terms
 
