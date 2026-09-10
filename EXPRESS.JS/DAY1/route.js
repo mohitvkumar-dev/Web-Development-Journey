@@ -14,7 +14,7 @@ app.listen(port, ()=>{
 // Routing
 
 app.get("/", (req,res)=>{
-    res.send("You contacted root path");
+    res.send("I'm IAS Mohit Kumar");
 
 });
 
