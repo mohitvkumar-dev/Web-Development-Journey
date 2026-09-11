@@ -5,7 +5,10 @@ This repository documents my structured and topic-wise learning of web developme
 ## Current Focus
 - HTML
 - CSS
-- JavaScript (Upcoming)
+- JavaScript
+- Node.Js
+- Express.Js
+- 
 
 ## Learning Approach
 - Concept-wise implementation
