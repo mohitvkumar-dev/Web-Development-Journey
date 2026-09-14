@@ -1,0 +1,70 @@
+{
+  "cats": {
+    "name": "Whiskers",
+    "followers": 12500,
+    "following": 340,
+    "posts": [
+      {
+        "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131",
+        "likes": 1200,
+        "comments": 85
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1574158622682-e40e69881006",
+        "likes": 980,
+        "comments": 62
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1519052537078-e6302a4968d4",
+        "likes": 1450,
+        "comments": 103
+      }
+    ]
+  },
+
+  "dogs": {
+    "name": "Bruno",
+    "followers": 15600,
+    "following": 420,
+    "posts": [
+      {
+        "image": "https://images.unsplash.com/photo-1552053831-71594a27632d",
+        "likes": 1500,
+        "comments": 110
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1558788353-f76d92427e16",
+        "likes": 1320,
+        "comments": 95
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb",
+        "likes": 1780,
+        "comments": 125
+      }
+    ]
+  },
+
+  "birds": {
+    "name": "Rio",
+    "followers": 9300,
+    "following": 275,
+    "posts": [
+      {
+        "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797",
+        "likes": 870,
+        "comments": 51
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1452570053594-1b985d6ea890",
+        "likes": 920,
+        "comments": 64
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3",
+        "likes": 1100,
+        "comments": 72
+      }
+    ]
+  }
+}
