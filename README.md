@@ -8,7 +8,10 @@ This repository documents my structured and topic-wise learning of web developme
 - JavaScript
 - Node.Js
 - Express.Js
-- 
+- MISCELLANEOUS
+- REST
+- SQL
+
 
 ## Learning Approach
 - Concept-wise implementation
