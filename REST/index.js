@@ -10,10 +10,26 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname,"views"));
 
 
-app.set(express.static(path.join(__dirname,"public")));
+app.use(express.static(path.join(__dirname,"public")));
 
-app.get("/", (req,res)=>{
-    res.send("service working well!");
+let posts =[
+    {
+        username: "mohit",
+        content:"I got selected for my first internship in winter which is of 55 lpa"
+    },
+    {
+        username: "Kumar",
+        content:"I love playing"
+    },
+    {
+        username: "Paswan",
+        content:"I love eating"
+    }
+];
+
+
+app.get("/posts", (req,res)=>{
+    res.render("index.ejs",{posts});
 })
 
 app.listen(port,()=>{
